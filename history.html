@@ -57,5 +57,5 @@ a{color:var(--link)}main{padding-top:8px}.page-title{font-size:23px;margin:3px 0
 (()=>{const root=document.documentElement;let choice='system';try{choice=localStorage.getItem('weekly-theme')||'system'}catch{}function apply(v){if(v==='dark'||v==='light')root.dataset.theme=v;else delete root.dataset.theme}apply(choice);document.addEventListener('DOMContentLoaded',()=>{const select=document.getElementById('weekly-theme');select.value=['system','light','dark'].includes(choice)?choice:'system';select.addEventListener('change',()=>{apply(select.value);try{localStorage.setItem('weekly-theme',select.value)}catch{}})})})();
 </script></head><body>
 <header><div class="masthead"><a class="brand" href="index.html">日々文化</a><span>日本傳統文化週報</span></div><nav><a href="index.html">最新週報</a><a href="history.html">歷史週報</a><label class="theme-label" for="weekly-theme">外觀<select id="weekly-theme"><option value="system">跟隨系統</option><option value="light">淺色</option><option value="dark">深色</option></select></label></nav></header>
-<main><h1 class="page-title">歷史週報</h1><p><a href="2026-09-28.html">2026-09-28 起的一週</a></p></main>
+<main><h1 class="page-title">歷史週報</h1><p><a href="2026-10-05.html">2026-10-05 起的一週</a></p><p><a href="2026-09-28.html">2026-09-28 起的一週</a></p></main>
 <footer>公開來源精選 · AI 協助整理 · 請以原始公告為準</footer></body></html>
